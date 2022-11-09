@@ -1,0 +1,23 @@
+{
+  "name": "lucas-portfolio-prototype",
+  "version": "1.0.0",
+  "description": "Lucas Portfolio Prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucash2022/Lucas-Portfolio-Prototype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucash2022/Lucas-Portfolio-Prototype/issues"
+  },
+  "homepage": "https://github.com/Lucash2022/Lucas-Portfolio-Prototype#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
