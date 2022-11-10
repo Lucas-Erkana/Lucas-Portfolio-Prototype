@@ -1,3 +1,27 @@
-body {
-  background: red;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.btn-info {
+  background-color: whitesmoke;
+}
+
+.btn-info:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.btn-info:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+.btn-info:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border-color: #5e6c84;
 }
