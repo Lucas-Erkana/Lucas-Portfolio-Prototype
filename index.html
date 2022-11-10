@@ -5,17 +5,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lucas-Portfolio-Prototype</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/fonts/fontawesome.min.css">
   </head>
 
   <body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+      <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="Lucas Erkana Logo" width="70px" height='55px'></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading5">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Social Media</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#scrollspyHeading1">LinkedIn</a></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading2">Facebook</a></li>
+            <li><li><a class="dropdown-item" href="#scrollspyHeading3">Github</a></li></li>
+            <li><a class="dropdown-item" href="#scrollspyHeading4">Twitter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      
 
-    
+      <h4 id="scrollspyHeading1" class="row d-flex justify-content-center">LinkedIn Account</h4>
+      <a href="https://www.linkedin.com/in/lucas-erkana-b30a0b3b/">
+        <img class="row d-flex justify-content-center" src="https://static.wixstatic.com/media/c0026a_6649d5af3d584f28adb2c9b93731c07f~mv2_d_1280_1280_s_2.png/v1/fill/w_450,h_450,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c0026a_6649d5af3d584f28adb2c9b93731c07f~mv2_d_1280_1280_s_2.png" alt="LinkedIn logo" width="600px" height="500px">
+      </a>
+      <h4 id="scrollspyHeading2" class="row d-flex justify-content-center">Facbook Account</h4>
+          <a href="https://www.facebook.com/" >
+            <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/1440x960/filters:focal(1081x614:1082x615):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10735673/wjoel_180427_2479_001.0.jpg" alt="Facebook logo" width="600px" height="500px">
+          </a>
+      <h4 id="scrollspyHeading3" class="row d-flex justify-content-center">Github Account</h4>
+      <a href="https://github.com/Lucash2022">
+        <img src="https://coralogix.com/wp-content/uploads/2021/03/Github@2x.png" alt="Github logo" width="600px" height="500px">
+      </a>
+        <h4 id="scrollspyHeading4" class="row d-flex justify-content-center">Twitter Account</h4>
+        <a href="https://twitter.com/@Lucas_David_22">
+          <img src="https://i0.wp.com/iblogmovil.es/wp-content/uploads/2022/01/twitter-logo-mundocuentas.png?w=800&ssl=1" alt="Github logo" width="600px" height="500px">
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+      <h4 id="scrollspyHeading5" class="row d-flex justify-content-center">Contact form</h4>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Gender</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+      
+    </div>
+     
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
   </body>
 
 </html>

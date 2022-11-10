@@ -1,7 +1,7 @@
 
-<Name of Project>
+Lucas Portfolio Prototype
 
-<Project Desction here>
+In this exercise, I will experience the power of using a CSS framework like Bootstrap to create a new website quickly from scratch.I will create a prototype of the portfolio website from scratch in a few hours.
 
 ## Built With
 - HTML and CSS
@@ -33,14 +33,16 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author**
 
+Lucas David Erkana
 - GitHub: [@githubhandle](https://github.com/Lucash2022)
 - Twitter: [@twitterhandle](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
+-Facebook: [Facebook](https://www.facebook.com/) 
 
 
 ## 🤝 Contributing
 
-
+[@githubhandle](https://github.com/Odongo006)
 
 ## Show your support
 
