@@ -1,7 +1,7 @@
 
-<Name of Project>
+Lucas Erkana Portfolio
 
-<Project Desction here>
+A responsive webite on LUcas David Erkana's website
 
 ## Built With
 - HTML and CSS
