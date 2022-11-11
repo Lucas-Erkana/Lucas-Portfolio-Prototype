@@ -1,14 +1,13 @@
 
-Lucas Erkana Portfolio
+Lucas Erkana Portfolio Website
 
-A responsive webite on LUcas David Erkana's website
+A responsive webite on Lucas David Erkana's website
 
 ## Built With
 - HTML and CSS
 
-## Live Demo (if available)
-
-[Live Website Link](https://lucash2022.github.io/Lucas-Portfolio-Prototype/)
+## Live Demo
+[Outline Presentation](https://www.loom.com/share/fdd485b1caeb4c2ca678566b5862cc1a/)
 
 
 ## Getting Started
