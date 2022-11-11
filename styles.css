@@ -25,3 +25,10 @@
   color: #5e6c84;
   border-color: #5e6c84;
 }
+
+/* Create space between navbar and showcase section */
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
