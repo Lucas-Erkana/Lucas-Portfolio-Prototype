@@ -1,9 +1,79 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+.sidebar,
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar {
+  left: -100%;
+  max-width: 170px;
+  transition: all ease 0.25s;
+  overflow-y: auto;
+  z-index: 1032;
+}
+
+.overlay {
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(233, 217, 217, 0.75);
+  visibility: hidden;
+  z-index: 1031;
+}
+
+.main-navigation.active .sidebar {
+  left: 0;
+}
+
+.main-navigation.active .overlay {
+  visibility: visible;
+}
 
 @media (min-width: 768px) {
+  .sidebar {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    flex-direction: row;
+    max-width: 100%;
+    transform: none;
+    transition: none;
+    overflow-y: visible;
+    z-index: auto;
+  }
+
   .news-input {
     width: 50%;
   }
+}
+
+@media (max-width: 767px) {
+  img {
+    height: 100px;
+    width: 250px;
+  }
+
+  .navbar-toggler {
+    border-width: 2px;
+    border-color: white;
+    animation-name: ham-load;
+    animation-duration: 4s;
+    animation-delay: 0s;
+  }
+
+  @keyframes ham-load {
+
+    0% { transform: translateX(800%); }
+    100% { transform: translateX(0%); }
+  }
+}
+
+.main-heading {
+  position: relative;
+  z-index: 100;
 }
 
 .btn-info {
@@ -13,6 +83,11 @@
 .btn-info:hover {
   background-color: #6070ff;
   color: white;
+}
+
+.btn-primary:hover {
+  background-color: #eff0f5;
+  color: rgb(13, 13, 13);
 }
 
 .btn-info:active {
@@ -26,7 +101,6 @@
   border-color: #5e6c84;
 }
 
-/* Create space between navbar and showcase section */
 body::before {
   display: block;
   content: '';
@@ -37,4 +111,42 @@ body::before {
   display: block;
   content: '';
   height: 60px;
+}
+
+.nav-item {
+  animation-name: nav-load;
+  animation-duration: 6s;
+  animation-delay: 0s;
+}
+
+@keyframes nav-load {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0%); }
+}
+
+.nav-item:hover {
+  color: white;
+  background: burlywood;
+}
+
+p {
+  animation-name: p-load;
+  animation-duration: 20s;
+  animation-delay: 0s;
+}
+
+@keyframes p-load {
+  0% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+h1 {
+  animation-name: h1-load;
+  animation-duration: 8s;
+  animation-delay: 0s;
+}
+
+@keyframes h1-load {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
 }
