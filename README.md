@@ -65,9 +65,9 @@ After you're finished please remove all the comments and instructions!
     <th style="border: 1px solid black;">Mobile Version Menu</th>
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="/images/DesktopVersionLIST.jpg" alt="Desktop Version" width="240"  height="auto" /></td>
-  <td><img src="/images/MobileVersionLIST.jpg" alt="Mobile Version" width="140"  height="auto" /></td>
-  <td><img src="/images/MobileVersionLIST2.jpg" alt="Mobile Version" width="140"  height="auto" /></td>
+  <td style="border: 1px solid black;"><img src="/images/DesktopVersionLIST.jpg" alt="Desktop Version" width="300"  height="200" /></td>
+  <td><img src="/images/MobileVersionLIST.jpg" alt="Mobile Version" width="140"  height="200" /></td>
+  <td><img src="/images/MobileVersionLIST2.jpg" alt="Mobile Version" width="140"  height="200" /></td>
   </tr>
 </table>
 **Lucas Erkana Portfolio Proototype** is a responsive webite that will grow into a learning platform for programmers. 
