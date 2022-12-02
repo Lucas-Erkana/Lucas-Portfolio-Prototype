@@ -156,7 +156,7 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/Lucash2022)
 - Twitter: [@twitterhandle](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
--Facebook: [@facebook](https://www.facebook.com/lucash.toni)
+- Facebook: [@facebook](https://www.facebook.com/lucash.toni)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
