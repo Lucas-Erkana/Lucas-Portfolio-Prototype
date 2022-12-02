@@ -62,6 +62,7 @@ After you're finished please remove all the comments and instructions!
   <tr>
     <th style="border: 1px solid black;">Desktop Version</th>
     <th>Mobile Version</th>
+    <th style="border: 1px solid black;">Mobile Version Menu</th>
   </tr>
   <tr style="border: 2px solid black;">
   <td style="border: 1px solid black;"><img src="/images/DesktopVersionLIST.jpg" alt="Desktop Version" width="140"  height="auto" /></td>
@@ -77,7 +78,7 @@ Add a book to your collection.
 Remove a book from your collection.
 Store your data history in the browser's memory.
 
-
+[Outline Presentation](https://www.loom.com/share/fdd485b1caeb4c2ca678566b5862cc1a/)
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -91,7 +92,6 @@ Store your data history in the browser's memory.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Outline Presentation](https://www.loom.com/share/fdd485b1caeb4c2ca678566b5862cc1a/)
 
 [Porfolio Prototype](https://lucash2022.github.io/Lucas-Portfolio-Prototype/)
 
