@@ -72,11 +72,16 @@ After you're finished please remove all the comments and instructions!
 </table>
 **Lucas Erkana Portfolio Proototype** is a responsive webite that will grow into a learning platform for programmers. 
 
+
 Here are some features of the page:
 
-Add a book to your collection.
-Remove a book from your collection.
-Store your data history in the browser's memory.
+-Contact me pop up
+
+-Navigation Menu
+
+-Mobile version
+
+-Desktop version
 
 [Outline Presentation](https://www.loom.com/share/fdd485b1caeb4c2ca678566b5862cc1a/)
 
